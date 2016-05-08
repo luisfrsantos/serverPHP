@@ -1,9 +1,9 @@
 {
     "name": "serverphp/serverphp",
-    "autoload": {
-        "psr-4": {
-            "Src\\ServerPHP": "src"		
-        }
+    "autoload": {        		
+	"psr-4": {
+            "App\\": "src/App/"
+        }        
     }
 }
 
