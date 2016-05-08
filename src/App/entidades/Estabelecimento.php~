@@ -1,5 +1,5 @@
 <?php 
-namespace App/entidades;
+namespace App\entidades;
 
 class Estabelecimento 
 {

@@ -12,7 +12,7 @@ class Estabelecimento
     private $descricao;
     private $ativo;
 	
-    function __construct($id, $nome, $tipo, $telefone, $imagem, $endereco, $descicao, $ativo)
+    public function __construct($id, $nome, $tipo, $telefone, $imagem, $endereco, $descicao, $ativo)
     {
         $this->id = (int) $id;
 	$this->nome = $nome;
