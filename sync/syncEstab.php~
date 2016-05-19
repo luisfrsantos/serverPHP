@@ -1,7 +1,10 @@
 <?php
  
- include_once '../entidades/Estabelecimento.php';
- include_once '../controllers/EstabelecimentoController.php';
+include_once '../entidades/Estabelecimento.php';
+include_once '../controllers/EstabelecimentoController.php';
+
+use App\entidades\Estabelecimento;
+use App\entidades\EstabelecimentoController;
  
  $estabelecimentoController = new EstabelecimentoController();
 
